@@ -445,6 +445,7 @@ GameObject:
   - component: {fileID: 959004694}
   - component: {fileID: 959004693}
   - component: {fileID: 959004692}
+  - component: {fileID: 959004698}
   - component: {fileID: 959004697}
   m_Layer: 0
   m_Name: Player(Smolar)
@@ -558,6 +559,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!114 &959004698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959004691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47e17f295b0299642858c2e6961c807b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0

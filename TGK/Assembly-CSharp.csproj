@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\Mover.cs" />
      <Compile Include="Assets\ObjectHit.cs" />
+     <Compile Include="Assets\Score.cs" />
     <Reference Include="UnityEngine">
         <HintPath>B:/projects unity/2020.2.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
