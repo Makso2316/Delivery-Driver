@@ -8,7 +8,11 @@ public class Score : MonoBehaviour
 
     private void OnCollisionEnter(Collision other) 
     {
-        hits = hits + 1;
-     Debug.Log("You;ve been somthing this many times: " + hits);   
+        if (other.gameObject.tag != "Hit")
+        {
+            hits = hits + 1;
+            Debug.Log("You;ve been somthing this many times: " + hits);    
+        }
+
     }
 }
