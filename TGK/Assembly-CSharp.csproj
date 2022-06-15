@@ -37,9 +37,10 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Mover.cs" />
+     <Compile Include="Assets\Scripts\Drops.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
      <Compile Include="Assets\Scripts\ObjectHit.cs" />
-     <Compile Include="Assets\Scripts\Drops.cs" />
+     <Compile Include="Assets\Scripts\spinner.cs" />
     <Reference Include="UnityEngine">
         <HintPath>B:/projects unity/2020.2.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
